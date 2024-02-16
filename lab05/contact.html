@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+    </head>
+    <body>
+        <h1>Contact</h1>
+        Harvey Wang<br>
+        225 Thurber Street<br>
+        Syracuse, NY, 13210<br>
+        <a href="mailto:hwang31@syr.edu">Harvey Wang Email</a><br>
+        <a href="http://www.linkedin.com"><img src="../images/logo-sized.png" alt="LinkedIN Logo">My LinkedIn Homepage</a><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.0937009888476!2d-76.13758262483229!3d43.018414871139235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f47ef7b7e663%3A0x7297342ea827e6a8!2s225%20Thurber%20St%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1706800696393!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h2>Tell Me About Yourself</h2>
+        <form action="https://formspree.io/f/xyyreayz" method="post">
+            <label for="fullname">Name</label>
+            <input type="text" id="fullname" name="fullname"><br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="person is male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="person is female">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="person is other gender">
+            <p>Interesting things about yourself</p>
+            <textarea id="interesting" name="interesting" rows="10" cols="30"></textarea><br>
+            <input type="submit" value="Send Form">
+        </form>
+    </body>
+</html>
