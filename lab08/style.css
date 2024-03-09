@@ -1,0 +1,17 @@
+body {background-color: #8dc4c3;
+    color:#306b46;
+}
+a {color:#6f248c;}
+h1, h2 {color: #bed41c;}
+nav {background-color: #e04410;
+padding:10px;
+margin-bottom:30px;}
+nav a {color:#a8226e;}
+nav a:hover {color: #f5f50c;}
+.quote {float:right;}
+header {float:left; margin-right:10px;}
+div {display: flex; padding:15px;}
+.box1 {background-color:#f5f50c; border-radius:1em;}
+.box2 {background-color:azure; border-radius:1em;}
+.questions {margin-left:90px; margin-right:70px;}
+.map {margin-left:70px;}
