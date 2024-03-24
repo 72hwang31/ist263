@@ -1,0 +1,23 @@
+body {background-color: #8dc4c3;
+    color:#306b46;
+}
+a {color:#6f248c;}
+h1, h2 {color: #bed41c;}
+nav {background-color: #e04410;
+padding:10px;
+margin-bottom:30px;}
+nav a {color:#a8226e;}
+nav a:hover {color: #f5f50c;}
+.header {text-align: center;}
+img {width: 5em;}
+.coreskills {display:flex;}
+aside {background-color:#faebd7;
+        border-radius: 0.5em;}
+.allskills {display:flex;
+margin:20px;}
+.coreskills {flex:3;
+    justify-content: space-around;}
+aside {flex:1;
+    margin-right: 30px;
+    padding: 10px;}
+p {padding: 30px;}
