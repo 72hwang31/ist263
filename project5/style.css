@@ -1,0 +1,77 @@
+body {background-color:#1f6d6d;}
+nav {
+    background-color: #f3900f;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 0.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+a {color:#a8226e;}
+nav a {font-size:1.5em;}
+nav a:hover {color: #f5f50c;}
+.introduction {display:flex;
+    padding: 30px;
+}
+.introtext {margin-left:60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:1.5em;
+}
+.firstimage {max-width:15em;}
+.about {
+    margin-left:50px;
+    margin-right:50px;}
+.about1image {max-width:10em;
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.about2image {max-width:10em;
+    float:right;
+    margin-left:10px;
+}
+.abouttext {font-size:1.2em;
+    font-family:'Times New Roman', Times, serif;
+    padding:30px;
+    background-color:#9acd39;
+    border-radius:0.3em;
+    margin-bottom:30px;
+}
+h1 {text-align:center;}
+h2 {background-color:#f5f50c;}
+.story {background-color:#c4d4de;
+    padding:50px;
+    border-radius:0.5em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sources {display:flex;}
+.origins, .text {flex:1;}
+.heights {display:flex;
+    padding:20px;
+    background-color:#c95743;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius:0.5em;
+    margin-bottom:20px;
+}
+.heightreference {margin-right:40px;}
+.story img {max-width:30em;}
+.onlinestuff {background-color:#9acd39;
+    border-radius:0.5em;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+footer {display:flex;
+    border:1px solid #000000;
+    justify-content:space-evenly;
+    background-color:#f0f8ff;
+    font-size:1.2em;
+}
+footer a:hover {color: #c19810;}
+
+@media only screen and (max-width:600px) {
+    nav a {display:block;
+    margin-bottom: 10px;}
+    footer {display:block;
+    margin-bottom: 10px;}
+    span {display:none;}
+}
