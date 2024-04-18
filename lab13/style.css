@@ -1,0 +1,49 @@
+body {background-color: #8dc4c3;
+    color:#306b46;
+}
+a {color:#6f248c;}
+h1, h2 {color: #bed41c;}
+nav {background-color: #e04410;
+padding:10px;
+margin-bottom:30px;}
+nav a {color:#a8226e;}
+nav a:hover {color: #f5f50c;}
+.header {text-align: center;}
+.icon1, .icon2, .icon3, .icon4, .icon5 {width: 5em;}
+.coreskills {display:flex;}
+aside {background-color:#faebd7;
+        border-radius: 0.5em;}
+.allskills {display:flex;
+margin:20px;}
+.coreskills {flex:3;
+    justify-content: space-around;}
+aside {flex:1;
+    margin-right: 30px;
+    padding: 10px;}
+.quote {float:right;}
+header {float:left; margin-right:10px;}
+.box1 {background-color:#f5f50c; border-radius:1em;
+    padding: 30px;}
+.box2 {background-color:azure; border-radius:1em;
+    display: flex;
+    flex-wrap: wrap;}
+.questions {margin-left:90px; margin-right:70px;}
+.map {margin-left:70px;}
+.headimage {max-width: 100%;}
+@media only screen and (max-width:800px) {
+    nav a {display:block;
+    margin-bottom: 10px;}
+    span {display:none;}
+}
+.skip {
+    background-color:#333333;
+    color:#ffffff;
+    padding: 8px;
+    border:2px solid #ffa500;
+    position: absolute;
+    top: 10px;
+    left: -999px; /* push off left side of browser */
+}
+.skip:focus {
+    left: 10px;
+}
