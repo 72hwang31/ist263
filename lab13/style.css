@@ -1,12 +1,12 @@
-body {background-color: #8dc4c3;
-    color:#306b46;
+body {background-color: #85beb3;
+    color:#654727;
 }
 a {color:#6f248c;}
-h1, h2 {color: #bed41c;}
+h1, h2 {color: #dffc00;}
 nav {background-color: #e04410;
 padding:10px;
 margin-bottom:30px;}
-nav a {color:#a8226e;}
+nav a {color:#5a0537;}
 nav a:hover {color: #f5f50c;}
 .header {text-align: center;}
 .icon1, .icon2, .icon3, .icon4, .icon5 {width: 5em;}
