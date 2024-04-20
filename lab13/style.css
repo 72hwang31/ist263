@@ -40,7 +40,9 @@ header {float:left; margin-right:10px;}
     color:#ffffff;
     padding: 8px;
     border:2px solid #ffa500;
+    position: absolute;
     top: 10px;
+    left: -999px;
 }
 .skip:focus {
     left: 10px;
