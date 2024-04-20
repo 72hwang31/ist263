@@ -3,11 +3,11 @@ body {background-color: #a7ebdd;
 }
 a {color:#6f248c;}
 h1, h2 {color: #768508;}
-nav {background-color: #ab4f1e;
+nav {background-color: #ec704a;
 padding:10px;
 margin-bottom:30px;}
-nav a {color:#1cf02a;}
-nav a:hover {color: #f5f50c;}
+nav a {color:#0c3a1f;}
+nav a:hover {color: #b3f50c;}
 .header {text-align: center;}
 .icon1, .icon2, .icon3, .icon4, .icon5 {width: 5em;}
 .coreskills {display:flex;}
