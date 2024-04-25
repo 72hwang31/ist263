@@ -1,4 +1,9 @@
-body {background-color:#1f6d6d;}
+body {background-color:#1f6d6d;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
 nav {
     background-color: #f3900f;
     padding: 5px;
@@ -31,7 +36,6 @@ nav a:hover {color: #f5f50c;}
     margin-left:10px;
 }
 .abouttext {font-size:1.2em;
-    font-family:'Times New Roman', Times, serif;
     padding:30px;
     background-color:#9acd39;
     border-radius:0.3em;
@@ -42,14 +46,12 @@ h2 {background-color:#f5f50c;}
 .story {background-color:#c4d4de;
     padding:50px;
     border-radius:0.5em;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .sources {display:flex;}
 .origins, .text {flex:1;}
 .heights {display:flex;
     padding:20px;
     background-color:#c95743;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius:0.5em;
     margin-bottom:20px;
 }
