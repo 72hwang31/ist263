@@ -1,10 +1,9 @@
 body {background-color:#1f6d6d;
-}
-h1, h2 {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
-    font-style: normal;}
+    font-style: normal;
+}
 nav {
     background-color: #f3900f;
     padding: 5px;
