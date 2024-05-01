@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mythicalgiants.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon1.ico">
+    <style>
+        table, th, td {border: 1px solid #000000;}
+        table {
+            text-align:center;
+            background-color:#c4d0d6;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+        img {width:25em;}
+        h2 {margin-left:30px;}
+        .explore {
+            background-color:#cfc725;
+            padding:50px;
+            border-radius:0.5em;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-bottom:30px;
+            display:inline-block;
+        }
+        .extra {
+            background-color:#c4d0d6;
+            padding:30px;
+            margin-top: 10px;
+            border-radius:0.5em;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+        /* Dropdown Button */
+        .dropbtn {
+            background-color: #3498DB;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+    }
+        /* Dropdown button on hover & focus */
+        .dropbtn:hover, .dropbtn:focus {
+            background-color: #2980B9;
+        }
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+             position: relative;
+            display: inline-block;
+        }
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {background-color: #ddd;}
+
+        /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+        .show {display:block;}
+    </style>
+    <script>
+        /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <a href="#skip" class="skip">Skip to Content</a>
+        <h1>How to Find the Giants</h1>
+        <a href="index.html">Home</a><span>|</span>
+        <a href="projectcontent.html">Table</a>
+    </nav>
+    <h2>Explore</h2>
+    <div class="explore">
+        Here are the figures that you will see on this website. Please have fun, go through them, and learn their stories.<br>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><strong>Giants</strong></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="projectpage1.html">Goliath</a>
+              <a href="projectpage2.html">Alcyoneus</a>
+              <a href="projectpage3.html">Cormoran</a>
+              <a href="projectpage4.html">Fangfengshi</a>
+              <a href="projectpage5.html">Aloadai (Ephialtes and Otos)</a>
+              <a href="projectpage6.html">Longbo Kingdom</a>
+              <a href="projectpage7.html">Nephilim</a>
+              <a href="projectpage8.html">Mökkurkálfi</a>
+              <a href="projectpage9.html">Pangu</a>
+            </div>
+          </div>
+        <table>
+            <caption>Content List</caption>
+            <tr>
+                <th>Figures</th>
+                <th>Origin</th>
+                <th>Estimated Heights</th>
+                <th>Size Reference</th>
+            </tr>
+            <tr>
+                <td><a href="projectpage1.html">Goliath</a></td>
+                <td>Jewish/Christian Tradition</td>
+                <td>6'9"/2.06 meters~9'9"/2.97 meters</td>
+                <td><img src="../images/image10.jpg" alt="image10"></td>
+            </tr>
+            <tr>
+                <td><a href="projectpage2.html">Alcyoneus</a></td>
+                <td>Greek Mythology</td>
+                <td>13'6"/4.1 meters</td>
+                <td><img src="../images/image11.jpg" alt="image11"></td>
+            </tr>
+            <tr>
+                <td><a href="projectpage3.html">Cormoran</a></td>
+                <td>Cornish folklore</td>
+                <td>18'/5.5 meters</td>
+                <td><img src="../images/image15.jpg" alt="image15"></td>
+            </tr>
+            <tr>
+                <td><a href="projectpage4.html">Fangfengshi 防风氏</a></td>
+                <td>Chinese Mythology</td>
+                <td>~22'8"/6.9 meters</td>
+                <td><img src="../images/image25.jpg" alt="image25"></td>
+            </tr>
+            <tr>
+                <td><a href="projectpage5.html">Aloadai (Ephialtes and Otos)</a></td>
+                <td>Greek Mythology</td>
+                <td>54'/16.5 meters</td>
+                <td><img src="../images/image16.jpg" alt="image16"></td>
+            </tr>
+            <tr>
+                <td><a href="projectpage6.html">Longbo Kingdom 龙伯国</a></td>
+                <td>Chinese Mythology</td>
+                <td>~226'/69 meters</td>
+                <td><img src="../images/image18.jpg" alt="image18"></td>
+            </tr>
+            <tr>
+                <td><a href="projectpage7.html">Nephilim</a></td>
+                <td>Jewish Esoteric Tradition</td>
+                <td>4,500'/1,370 meters</td>
+                <td><img src="../images/image21.jpg" alt="image21"></td>
+            </tr>
+            <tr>
+                <td><a href="projectpage8.html">Mökkurkálfi</a></td>
+                <td>Norse Mythology</td>
+                <td>~63 miles/101 km</td>
+                <td><img src="../images/image23.jpg" alt="image23"></td>
+            </tr>
+            <tr>
+                <td><a href="projectpage9.html">Pangu 盘古</a></td>
+                <td>Chinese Mythology</td>
+                <td>~18,640 miles/30,000 km</td>
+                <td><img src="../images/image22.jpg" alt="image22"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="extra">
+        If you want to see other giants on this list, in the box below, type in its/their name and some sources of their story so I can add them to see how they compare.<br>
+        <form action="https://formspree.io/f/xyyreayz" method="post">
+            <label>Write Here</label><br>
+            <textarea id="more" name="more" rows="3" cols="60"></textarea><br>
+            <input type="submit" value="Send Form">
+        </form>
+    </div>
+</body>
+</html>

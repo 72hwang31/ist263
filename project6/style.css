@@ -18,6 +18,18 @@ nav a:hover {color: #f5f50c;}
 .introduction {display:flex;
     padding: 30px;
 }
+.skip {
+    background-color:#333333;
+    color:#ffffff;
+    padding: 8px;
+    border:2px solid #ffa500;
+    position: absolute;
+    top: 10px;
+    left: -999px;
+}
+.skip:focus {
+    left: 10px;
+}
 .introtext {margin-left:60px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:1.5em;
