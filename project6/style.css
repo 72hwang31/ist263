@@ -5,16 +5,16 @@ body {background-color:#1f6d6d;
     font-style: normal;
 }
 nav {
-    background-color: #f3900f;
+    background-color: #f99625;
     padding: 5px;
     margin-bottom: 10px;
     border-radius: 0.5em;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
-a {color:#a8226e;}
+a {color:#5e0e3b;}
 nav a {font-size:1.5em;}
-nav a:hover {color: #435b08;}
+nav a:hover {color: #293505;}
 .introduction {display:flex;
     padding: 30px;
 }
