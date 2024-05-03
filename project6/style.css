@@ -70,7 +70,9 @@ h2 {background-color:#f5f50c;}
     border-radius:0.5em;
     margin-bottom:20px;
     flex-wrap:wrap;
+    display:inline-block;
 }
+img {max-width:50em;}
 .heightreference {margin-right:40px;}
 .story img {max-width:30em;}
 .onlinestuff {background-color:#9acd39;
